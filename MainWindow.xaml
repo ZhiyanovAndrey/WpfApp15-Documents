@@ -1,0 +1,305 @@
+﻿<Window x:Class="WpfApp15_Documents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15_Documents"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+    <FlowDocumentScrollViewer Margin="10,19,-10.4,0" Grid.RowSpan="2">
+        
+        <FlowDocument>
+                <Paragraph FontSize="24" FontWeight="Bold" Padding="25,0,0,0">
+                    Продукты питания где магния больше всего
+
+                    <Hyperlink NavigateUri="https://we11.ru/magnij-v-produktah-pitaniya-gde-bolshe-vsego-tablica/">
+                         Первая школа Wellness
+                    </Hyperlink> 
+                </Paragraph>
+                <Paragraph FontSize="14">
+                    Продукты содержащие магний необходимо употреблять ежедневно. 
+        Потребность человека в магнии составляет примерно 400-500 мг в день. 
+                    
+               
+                </Paragraph>
+                <Paragraph >
+                  Магний встречается в самых разных продуктах питания нашего стола:   
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            масло (кунжутное, льняное, арахисовое, топленое);
+                        </Paragraph> 
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+сыр (голландский, пошехонский, козий, с плесенью);
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+йогурт (1,5 — 3,2 %), творог (обезжиренный и нежирный, творожные сырки);
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+сгущенное молоко; — горький шоколад;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+мясо (почти все виды), рыба (палтус, осетр, пикша, окунь, треска, сайра);
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+утиные яйца;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+крупа (геркулес, нут, горох, гречка, коричневый рис, чечевица);
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+ фрукты (черешня, киви, ананас, фейхоа, малина, груша, персик, хурма);
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+многие сорта чая (например: «Иван- Чай») и соки; — имбирь, горчица, ваниль.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+            
+                <Paragraph>
+                    Продукты с высоким содержанием магния, по убыванию (мг/100 гр продукта):
+
+                </Paragraph>
+                <Section TextAlignment="Left" FontFamily="Verdana">
+                    <Table>
+                    <Table.Columns>
+                        <TableColumn Width="300"/>
+                        <TableColumn Width="150"/>
+                        <TableColumn Width="150"/>
+                        <TableColumn Width="70"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        
+                        <TableRow>
+                            <TableCell >
+                                <Paragraph>Название</Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>Содержание Магния, мг</Paragraph>
+                            </TableCell>
+                            <TableCell >
+                                <Paragraph>Калорийность</Paragraph>
+                            </TableCell>
+                                <TableCell >
+                                    <Paragraph>Фото</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Семена тыквенные сушеные</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>592</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>559</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/pomp.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+
+                        
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Кунжут семя</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>540</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>565</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/kunzute.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Отруби пшеничные</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>448</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>165</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/otruby.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Мак</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>542</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>556</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/mak.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                    <Paragraph>Льняное семя</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>392</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>534</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/len.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Какао порошок</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>425</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>289</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/kakao.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Семечки подсолнуха</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>317</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>601</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/cemky.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Гречка</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>231</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>296</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/grechka.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Халва</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>218</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>469</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/xalva.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>Имбирь сухой молотый</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>214</Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>335</Paragraph>
+                            </TableCell>
+                                <TableCell>
+                                    <BlockUIContainer>
+                                        <Image Width="50" Source="Data/imbir.png"/>
+                                    </BlockUIContainer>
+                                </TableCell>
+                            </TableRow>  
+                    </TableRowGroup>
+                </Table>
+               </Section>
+                <Paragraph>
+                    <Floater Width="350" HorizontalAlignment="Right">
+                      <BlockUIContainer>
+                    <Image Source="Data/Screen.png"/>
+                </BlockUIContainer>
+   
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Теперь, вы знаете в каких продуктах питания содержится больше всего магния и как посчитать суточную потребность именно для вас. На основании этих данных вы без труда сможете составить грамотный и сбалансированный рацион питания, не только с учетом КБЖУ (калорийность, белки, жиры, углеводы), но и с этим необходимым микроэлементом. Соблюдайте баланс кальция и магния 2 к 1 Обратите особое внимание, что большое количество кальция в рационе при недостатке магния загрязняет организм. Кальций не усваивается и откладывается в суставах или образует камни в почках. Например, соотношение кальция и магния в молоке 8 к 1, что создает дефицит магния. Никогда не принимайте препараты кальция без магния. А при диете с богатым содержанием кальция старайтесь включать продукты из списка богатые магнием.
+                </Paragraph>
+                <Paragraph>
+                    
+                </Paragraph>
+                <BlockUIContainer>
+                    <StackPanel>
+                    <TextBlock Text ="Подписаться на автора статьи в инстаграм:" />
+                        <Button Content="Подписаться" Height="Auto" Width="150" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+    </FlowDocumentScrollViewer>
+
+    </Grid>
+
+</Window>
